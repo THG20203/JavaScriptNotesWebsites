@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My JavaScript Fundamentals Website</title>
+    <title>My JavaScript Fundamentals Website Part 1</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -171,6 +171,99 @@
     <!-- BASIC OPERATORS -->
     <section>
       <h2>BASIC OPERATORS</h2>
+      <ul>
+        <li>
+          Operators allows us to transfer values or combine multiple values.
+        </li>
+        <li>
+          Categories of operators -> mathematical, comparison, logical,
+          assignment
+        </li>
+        <li>
+          Mathematical operator -> use minus operator to solve simple problem.
+          <br />
+          const ageJonas = 2037 - 1991;
+        </li>
+        <li>2 ** 3 means 2 to the power of 3 = 2 * 2 * 2</li>
+        <li>
+          Another use case for plus operator is to join strings (concatenate)
+          <br />
+          const firstName = "Tristan";<br />
+          const lastName = "Griffiths";
+          <br />
+        </li>
+        <li>
+          Add a space? add empty stringconsole.log(firstName + " " + lastName);
+        </li>
+        <li>
+          Assignment Operators. Most simple is = equals<br />
+          let x = 10 + 5;
+        </li>
+        <li>
+          In above code x will be assinged 15, because the + operator is
+          executed before the assignment operator.
+        </li>
+        <li>
+          Further assignment operators:<br />
+          x += 10; IS x = x + 10;<br />
+          x = x + 1; IS x++;<br />
+          x = x - 1; IS x--; <br />
+          x = x - 1; IS x--;
+        </li>
+        <li>
+          > greater <br />
+          < less than<br />
+          >= greater equal<br />
+          <= less than equal
+          <br />
+          LEFT TO RIGHT - hence x > y means x is greater than y
+        </li>
+      </ul>
+    </section>
+
+    <!-- STATEMENTS AND EXPRESSIONS -->
+    <section>
+      <h2>STATEMENTS AND EXPRESSIONS</h2>
+      <ul>
+        <li>
+          <strong
+            >Expression = piece of code that produces a value -> i.e. 3 +
+            4</strong
+          >
+        </li>
+        <li>
+          Boolean code will also produce a value<br />
+          true && false && !false;
+        </li>
+        <li>
+          <strong>
+            Statements = piece of code executed doesn't produce piece of value
+            on itself
+          </strong>
+        </li>
+        <li>
+          This if else statment below doesn't produce a value does it? All it
+          does is declares variable called str <br />if (23 > 10) { <br />const
+          str = "23 is bigger"; <br />}
+        </li>
+        <li>
+          Template literal -> only insert expressions not statements. i.e. 2037
+          - 1991 as shown below
+        </li>
+      </ul>
+    </section>
+
+    <!-- THE CONDITIONAL (TERNARY) OPERATOR -->
+    <section>
+      <h2>THE CONDITIONAL (TERNARY) OPERATOR</h2>
+      <ul>
+        <li>const drink = age >= 18 ? "wine" : "water";</li>
+        <li>Can put ternary operator into a template literal</li>
+        <li>
+          Cause ternary operator is asn EXPRESSION that produces a VALUE */
+          console.log(`I like to drink ${age >= 18 ? "wine" : "water"}`);
+        </li>
+      </ul>
     </section>
     <script src="script.js"></script>
   </body>
