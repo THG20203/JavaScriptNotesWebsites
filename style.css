@@ -22,3 +22,10 @@ li {
   margin-left: 30px;
   list-style-type: square;
 }
+
+a {
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 2;
+  margin-left: 30px;
+}
