@@ -1,0 +1,24 @@
+body {
+  background-color: #f5f5dc;
+}
+
+section {
+  background-color: #f0ffff;
+  border: solid;
+  border-color: black;
+  margin: 20px;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  text-align: center;
+}
+
+li {
+  font-family: "Montserrat";
+  font-size: 20px;
+  line-height: 2;
+  margin-left: 30px;
+  list-style-type: square;
+}

@@ -9,6 +9,128 @@
   <body>
     <!-- Your HTML content goes here -->
 
+    <!-- VALUES AND VARIABLES SECTION -->
+    <section>
+      <h2>VALUES AND VARIABLES</h2>
+      <ul>
+        <li>A value = piece of data, fundamental piece of information.</li>
+        <li>Value = smallest unit of information.</li>
+        <li>
+          Values can be stored into variables, process is called declaring the
+          variable - i.e. let firstName = "Jonas";
+        </li>
+        <li>Outputting code to the browser = done into the console.log.</li>
+        <li>
+          You pass the variable name console.log(firstName); into console. A
+          Syntax error is error in writing the code.
+        </li>
+        <li>
+          Variable names can't start with numbers. Variable names can only
+          contain numbers, letters or dollar sign.
+        </li>
+        <li>
+          Also can't use reserved keywords let new = 27; 'New' is a reserved
+          keyword In javascript, don't start variable name with upper case
+          letter.
+        </li>
+      </ul>
+    </section>
+
+    <!-- DATA TYPES -->
+    <section>
+      <h2>DATA TYPES</h2>
+      <ul>
+        <li>
+          Every value is an object or a primitive. Values are only a primitive
+          if they are not an object.
+        </li>
+        <li>
+          Example of an object:
+          <br />let me = { <br />
+          name: "Jonas; <br />
+          }
+        </li>
+        <li>
+          Example of primitive: <br />
+          let firstName= "Tristan"; <br />
+          let age = 30; */
+        </li>
+        <li>
+          7 Primitive data types:
+          <ol>
+            <li>
+              Number - floating point (meaning always have decimals, even if we
+              don't see them or define them). Number are used for decimals and
+              integers.
+            </li>
+            <li>String - sequence of characters used for text.</li>
+            <li>
+              Boolean - logical type that can only be true or false. It is used
+              for taking decisions.
+            </li>
+            <li>
+              Undefined - value taken by a variable that is not yet defined -
+              empty value.
+            </li>
+            <li>Null - also means 'empty value'</li>
+            <li>
+              Symbol - (ES2015) - unique and cannot be changed (not useful now)
+            </li>
+            <li>
+              BigInt - (ES2020) - larger integars than number type can hold
+            </li>
+          </ol>
+        </li>
+        <li>
+          JavaScript has dynamic typing - we do not have to manually define data
+          type of the value stored in a variable. Instead, data types are
+          determined automatically.
+        </li>
+        <li>
+          JavaScript - value has a type. NOT the variable. Variables simply
+          store a value that has as type.
+        </li>
+        <li>
+          Dynamic typing - we can assign a new value in a different data type to
+          the same variable without a problem.
+        </li>
+        <li>
+          Example: <br/ >Variable x can initially be a number then later a
+          string. Can be useful but also difficult to find bugs.
+        </li>
+        <li>Boolean is true or false.</li>
+        <li>
+          Just writing 'true' is a boolean value - i.e. console.log(true). It is
+          not a string cause printed in pink rather than white as a string would
+          be printed in within the console.
+        </li>
+        <li>We can store booleans in variables. let javascriptIsFun = true;</li>
+        <li>
+          Remember, variable declaration needs to happen before the log, because
+          javascript is executed from top to bottom
+          console.log(javascriptIsFun);
+        </li>
+        <li>
+          In dynamic typing, what matters is that we do not write the let again.
+          <br />
+          let javascriptIsFun = true;<br />
+          javascriptIsFun = "YES!";
+        </li>
+        <li>
+          First time we declare a new varaible, we need to do it using let. But
+          then, when we want to change the value - of the varaible, we simply
+          write it again without the let.
+        </li>
+      </ul>
+    </section>
+
+    <!-- LET, CONST AND VAR -->
+    <section>
+      <h2>LET, CONST AND VAR</h2>
+      <ul>
+        <li>test</li>
+      </ul>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
