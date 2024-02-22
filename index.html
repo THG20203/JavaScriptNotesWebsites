@@ -128,8 +128,49 @@
     <section>
       <h2>LET, CONST AND VAR</h2>
       <ul>
-        <li>test</li>
+        <li>
+          Three ways of declaring variables in JavaScript -> let, const and var
+        </li>
+        <li>let + const introduced ES6 -> modern JS. var is old way.</li>
+        <li>
+          let keyword -> declare variables that will change later, during the
+          execution of our program.
+        </li>
+        <li>
+          Shown example of let - reassigning value to a variable<br />let age =
+          30;<br />
+          age = 31;
+        </li>
+        <li>
+          Use const - declare variables that are not supposed to change at any
+          point in the future. Value in const variable cannot be changed.
+        </li>
+        <li>
+          Below WON'T work:<br />
+          const birthYear = 1991;<br />
+          birthYear = 1990;
+        </li>
+        <li>This procudes another kind of javascript error, a TypeError.</li>
+        <li>
+          The fact that variables created with const are immutable also means we
+          cannot declare empty const variables.
+        </li>
+        <li>
+          const job; produces -> Syntax error: missing initializer in const
+          declaration.
+        </li>
+        <li>
+          We should use const by default, let if things will change in the
+          future. Good to have as little mutations as possible, because changing
+          varialbes introduces potential for bugs.
+        </li>
+        <li>let is blockscoped, var is function scoped</li>
       </ul>
+    </section>
+
+    <!-- BASIC OPERATORS -->
+    <section>
+      <h2>BASIC OPERATORS</h2>
     </section>
     <script src="script.js"></script>
   </body>
