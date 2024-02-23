@@ -233,8 +233,8 @@
           const tristan = {<br />firstName: "Tristan",<br />lastName:
           "Griffiths",<br />birthYear: 1997,<br />job: "teacher",<br />friends:
           ["Michael", "John", "Steven"],<br />hasDriversLicense: true,<br />calcAge:
-          function(birthYear) {<br />
-          return 2037 - birthYear;<br />}<br />};
+          function() {<br />
+          return 2037 - this.birthYear;<br />}<br />};
           <br />
           jonas.calcAge(1991);<br />
           Calling the function objectName.functionName(argument);
@@ -243,6 +243,47 @@
         <li>
           Method is a property, just happens to be a property that holds a
           function value.
+        </li>
+        <li>
+          This keyword/ or variable is equal to the object on which the method
+          is called.
+          <strong
+            >Whatever appears before . is the one calling the method.</strong
+          >
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>ITERATION: FOR LOOP</h2>
+      <ul>
+        <li>Loops automate repetitive tasks - For loops have 3 parts:</li>
+        <ul>
+          <li>
+            <strong>First</strong> intial value of a counter - use let value.
+            (Use let value, cause later counter will be updated)
+          </li>
+          <li>
+            <strong>Second</strong> logical condition evaluated
+            <strong>before</strong> each iteration of the loop. (So before each
+            time the code is executed)
+          </li>
+          <li>
+            <strong>Third</strong> increasing the counter. (So increasing our
+            counter by 1 each iteration. rep = rep + 1 can be replaced by rep++)
+          </li>
+        </ul>
+        <li>
+          for (let rep = 1; rep <= 10; rep++) {<br />
+          /* number in console.log is current value of the counter. */<br />
+          console.log(`Lifting weights repetition ${rep}`);
+          <br />}
+        </li>
+        <li>In our case rep <= 10. rep is LESS than or equal to 10.</li>
+        <li>
+          So this condition will be evaluated before each iteration of the loop.
+          If the condition is 'true' the next iteration will run, but as soon as
+          condition is false the loop stops, so no more code will be executed.
         </li>
       </ul>
     </section>
